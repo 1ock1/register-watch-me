@@ -1,0 +1,105 @@
+body {
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+}
+.wrap-login-all {
+  background-image: url(./img/SpyxFamily.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wrap-login-form {
+  min-height: 100vh;
+  box-shadow: 0 2px 2px #313131;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.login-form {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  position: relative;
+  padding: 55px 55px 37px 55px;
+}
+.login-form-input {
+  width: 100%;
+  border: none;
+  outline: none;
+
+  padding: 10px;
+  font-size: 0.8vw;
+  margin: 10px 0;
+  position: relative;
+}
+.login-form-input input {
+  border-bottom: 1px solid #ccc;
+}
+.pass-eye-icon {
+  text-decoration: none;
+  position: absolute;
+  bottom: 21%;
+  right: 5%;
+}
+.login-form-heading {
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 80);
+}
+.login-form-hope {
+  font-size: 0.7vw;
+  text-align: center;
+  margin: 10px 0;
+  color: rgb(33, 63, 200);
+}
+.login-form-warn {
+  color: red;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8vw;
+}
+.login-button {
+  width: 150px;
+  text-align: center;
+  max-width: 100%;
+  margin: 20px auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 0.8vw;
+  padding: 5px 10px;
+}
+.login-button:hover {
+  background-color: rgb(178, 178, 248);
+  color: var(--white-color);
+  font-weight: 600;
+}
+.login-selection {
+  text-align: center;
+}
+.login-selection a {
+  text-decoration: none;
+  color: var(--black-color);
+  margin: 0px 10px;
+  font-size: 0.8vw;
+}
+.login-forgot-password:hover {
+  color: tomato;
+}
+.login-register-link:hover {
+  color: blue;
+}
+.login-other-version {
+  display: flex;
+  margin-left: 40px;
+
+  text-align: center;
+}
+.login-by-google-icon {
+  width: 90%;
+}
+.login-by-facebook-icon {
+  width: 90%;
+}

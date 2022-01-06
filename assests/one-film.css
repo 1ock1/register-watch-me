@@ -1,0 +1,173 @@
+.one-film-content {
+  position: relative;
+}
+.one-film-content-description {
+  position: absolute;
+  bottom: 15%;
+}
+.one-film-content-img {
+  padding-top: 16%;
+  padding-bottom: 16%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.842),
+      rgba(255, 255, 255, 0)
+    ),
+    url(./img/anime-slide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.one-film-content-desc-heading {
+  color: var(--white-color);
+  font-size: 2vw;
+  text-decoration: none;
+  font-weight: 600;
+}
+.one-film-content-desc-consideration {
+  margin-top: 10px;
+  font-size: 1.2vw;
+  color: var(--white-color);
+}
+.one-film-content-cons-item-icon {
+  color: yellow;
+}
+.one-film-content-cons-item {
+  padding-right: 10px;
+  padding-left: 0;
+}
+.one-film-content-type {
+  color: var(--white-color);
+  font-size: 0.8vw;
+  margin-top: 10px;
+}
+.one-film-content-type-item {
+  margin-left: -3px;
+  padding: 3px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.one-film-content-origin-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.one-film-content-specific {
+  position: relative;
+}
+.one-film-content-origin-item {
+  margin-top: 5px;
+  font-size: 0.8vw;
+  color: var(--white-color);
+  margin-right: 10px;
+  padding: 5px;
+  margin-left: -5px;
+}
+.one-film-content-origin-item-location {
+  color: #ccc;
+}
+.specific {
+  font-size: 0.8vw;
+}
+.one-film-content-specific-desc {
+  padding: 0;
+  margin: 0;
+  color: var(--white-color);
+  font-size: 0.8vw;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+.one-film-content-specific-more {
+  color: var(--white-color);
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  top: 90%;
+  font-size: 00.8vw;
+}
+.one-film-content-specific-more:hover {
+  color: #ccc;
+}
+.one-film-content-selection-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+.one-film-content-selection-item {
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 10px;
+  font-size: 0.8vw;
+  background-color: rgba(0, 11, 73, 0.883);
+  margin-right: 5px;
+  border-radius: 3px;
+}
+.one-film-content-selection-item:hover {
+  background-color: var(--primary-color-nav);
+}
+.one-film-content-selection-button-icon {
+  margin-right: 2px;
+}
+.one-film-content-nav-option-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+.one-film-content-option-item-link {
+  text-decoration: none;
+  font-size: 1vw;
+  color: #ccc;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+.one-film-content-option-item-link:hover {
+  color: var(--white-color);
+}
+.seperate-line {
+  margin-top: 10px;
+  border-top: 0.5px solid #ccc;
+}
+.episode-film {
+  margin-bottom: 60px;
+}
+.episode-film-content-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 30%;
+}
+.episode-film-content-heading-link {
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 0.9vw;
+}
+.episode-film-content-heading-link:hover {
+  color: rgb(251, 160, 144);
+}
+.episode-film-content-img {
+  position: relative;
+}
+.episode-film-content-icon-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--white-color);
+  font-size: 1.2vw;
+  display: none;
+}
+.episode-film-content:hover .episode-film-content-icon-play {
+  display: block;
+}
+.episode-film-guide-heading {
+  font-size: 1vw;
+  color: var(--white-color);
+  margin: 10px 0;
+}
